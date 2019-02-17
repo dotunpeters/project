@@ -1,7 +1,13 @@
-$color: green;
+$color: red;
+
+%generic{
+    font-size: 18px;
+}
 
 h1{
+    @extend %generic;
     color: $color;
+    background-color: grey;
 }
 
 p{
